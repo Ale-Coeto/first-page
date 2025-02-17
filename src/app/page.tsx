@@ -1,9 +1,7 @@
-import Image from "next/image";
-import NavBar from "./components/navBar";
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center h-screen">
+    <div className="h-full flex flex-col justify-center items-center">
       <div className="text-3xl font-semibold font-sans text-gray-800">
         Venta de productos Digitales
       </div>

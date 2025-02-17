@@ -29,7 +29,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-50`}
       >
         <NavBar />
-        {children}
+        <div className="h-screen px-40 pt-20">
+          {children}
+        </div>
       </body>
     </html>
   );

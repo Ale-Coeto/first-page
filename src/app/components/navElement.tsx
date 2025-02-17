@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 interface NavElementProps {
     label: string,
     href: string
@@ -5,9 +7,9 @@ interface NavElementProps {
 
 const NavElement = ({label, href} : NavElementProps) => {
     return (
-        <div className="text-gray-500">
+        <Link href={href} className="text-gray-500">
             {label}
-        </div>
+        </Link>
     )
 }
 
